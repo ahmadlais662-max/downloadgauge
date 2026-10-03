@@ -1,0 +1,301 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ================================
+   Media defaults
+   ================================ */
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+img,
+video {
+  height: auto;
+}
+
+/* Prevent long text/numbers from breaking layouts */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  overflow-wrap: break-word;
+}
+
+/* ================================
+   Form controls
+   ================================ */
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  max-width: 100%;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ================================
+   Page entrance animation
+   ================================ */
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out both;
+}
+
+/* ================================
+   Calculator result animation
+   ================================ */
+
+@keyframes result-pop {
+  0% {
+    opacity: 0.4;
+    transform: translateY(4px) scale(0.98);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-result-pop {
+  animation: result-pop 0.25s ease-out both;
+}
+
+/* ================================
+   Button micro-interactions
+   ================================ */
+
+button {
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+button:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.1);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(59, 130, 246, 0.25);
+  outline-offset: 3px;
+}
+
+/* Button icon movement */
+
+button svg {
+  transition: transform 180ms ease;
+}
+
+button:hover svg {
+  transform: translateX(3px);
+}
+
+/* ================================
+   Card interactions
+   ================================ */
+
+.card-interactive {
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+.card-interactive:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.1);
+  border-color: rgba(148, 163, 184, 0.65);
+}
+
+/* Guide cards */
+
+article {
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  border-color: rgba(148, 163, 184, 0.65);
+}
+
+/* ================================
+   Links
+   ================================ */
+
+a {
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+/* ================================
+   Speedometer
+   ================================ */
+
+.speedometer-icon {
+  position: relative;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 2px solid currentColor;
+  border-bottom: 0;
+  border-radius: 100px 100px 0 0;
+  overflow: visible;
+}
+
+.speedometer-icon::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 3px;
+  height: 3px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.speedometer-needle {
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  width: 1.5px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
+  transform-origin: 50% 100%;
+  transform: translateX(-50%) rotate(-55deg);
+  animation: speedometer-needle 1.8s ease-in-out infinite;
+}
+
+@keyframes speedometer-needle {
+  0% {
+    transform: translateX(-50%) rotate(-55deg);
+  }
+
+  50% {
+    transform: translateX(-50%) rotate(55deg);
+  }
+
+  100% {
+    transform: translateX(-50%) rotate(-55deg);
+  }
+}
+
+/* ================================
+   Mobile interaction adjustments
+   ================================ */
+
+@media (max-width: 640px) {
+  /*
+    Disable hover lifting on touch-sized screens.
+    This prevents cards/buttons from behaving strangely
+    when tapped on mobile.
+  */
+
+  button:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .card-interactive:hover,
+  article:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  /*
+    Keep calculator fields comfortable to use
+    on mobile devices.
+  */
+
+  input,
+  select,
+  textarea,
+  button {
+    max-width: 100%;
+  }
+}
+
+/* ================================
+   Accessibility
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
