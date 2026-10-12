@@ -16,22 +16,22 @@ const examples = [
   {
     size: "1 GB",
     description:
-      "Estimate how long a 1 GB file will take to download at your internet speed.",
+      "At 100 Mbps, a 1 GB file takes about 1 minute 26 seconds to download under ideal conditions.",
   },
   {
     size: "10 GB",
     description:
-      "Plan downloads such as large software packages, videos, and backups.",
+      "At 100 Mbps, a 10 GB file takes about 14 minutes 19 seconds to download under ideal conditions.",
   },
   {
     size: "50 GB",
     description:
-      "Estimate the time needed for large games, archives, and other files.",
+      "At 100 Mbps, a 50 GB file takes about 1 hour 11 minutes 35 seconds to download under ideal conditions.",
   },
   {
     size: "100 GB",
     description:
-      "Plan very large downloads before starting a long file transfer.",
+      "At 100 Mbps, a 100 GB file takes about 2 hours 23 minutes 10 seconds to download under ideal conditions.",
   },
 ];
 
