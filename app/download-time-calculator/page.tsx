@@ -607,26 +607,28 @@ export default function DownloadTimeCalculatorPage() {
  
             <div className="mt-6 grid gap-3 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4"> 
               {[ 
-                { 
-                  size: "1 GB", 
-                  description: 
-                    "A smaller download such as a large app, video, or software package.", 
-                }, 
-                { 
-                  size: "10 GB", 
-                  description: 
-                    "A common size for large games, software, or media.", 
-                }, 
-                { 
-                  size: "50 GB", 
-                  description: 
-                    "A large download that can take significant time on slower connections.", 
-                }, 
-                { 
-                  size: "100 GB", 
-                  description: 
-                    "A very large download where connection speed makes a major difference.", 
-                }, 
+               
+{
+  size: "1 GB",
+  description:
+    "At 100 Mbps, a 1 GB file takes about 1 minute 26 seconds to download under ideal conditions.",
+},
+{
+  size: "10 GB",
+  description:
+    "At 100 Mbps, a 10 GB file takes about 14 minutes 19 seconds to download under ideal conditions.",
+},
+{
+  size: "50 GB",
+  description:
+    "At 100 Mbps, a 50 GB file takes about 1 hour 11 minutes 35 seconds to download under ideal conditions.",
+},
+{
+  size: "100 GB",
+  description:
+    "At 100 Mbps, a 100 GB file takes about 2 hours 23 minutes 10 seconds to download under ideal conditions.",
+},
+
               ].map((example) => ( 
                 <article 
                   key={example.size} 
