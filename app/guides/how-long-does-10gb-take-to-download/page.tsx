@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 };
 
 const downloadExamples = [
-  { speed: "10 Mbps", time: "about 1 hour 22 minutes" },
-  { speed: "25 Mbps", time: "about 32 minutes 46 seconds" },
-  { speed: "50 Mbps", time: "about 16 minutes 23 seconds" },
-  { speed: "100 Mbps", time: "about 8 minutes 11 seconds" },
-  { speed: "200 Mbps", time: "about 4 minutes 6 seconds" },
-  { speed: "500 Mbps", time: "about 1 minute 38 seconds" },
-  { speed: "1 Gbps", time: "about 49 seconds" },
+  { speed: "10 Mbps", time: "about 2 hours, 23 minutes, 10 seconds" },
+  { speed: "25 Mbps", time: "about 57 minutes, 16 seconds" },
+  { speed: "50 Mbps", time: "about 28 minutes, 38 seconds" },
+  { speed: "100 Mbps", time: "about 14 minutes, 19 seconds" },
+  { speed: "200 Mbps", time: "about 7 minutes, 10 seconds" },
+  { speed: "500 Mbps", time: "about 2 minutes, 52 seconds" },
+  { speed: "1 Gbps", time: "1 minute, 26 seconds" },
 ];
 
 export default function TenGbGuidePage() {
