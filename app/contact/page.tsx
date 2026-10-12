@@ -134,12 +134,22 @@ export default function ContactPage() {
               <h2 className="mt-1.5 text-2xl font-bold leading-tight tracking-tight text-slate-950 sm:mt-2 sm:text-3xl">
                 We&apos;d like to hear from you
               </h2>
+            
+            
+            <p className="mt-4">
+  If you have a question about DownloadGauge, feedback about our
+  calculators, or a suggestion that could help improve the
+  website, you can contact us at{" "}
+  <a
+    href="mailto:contact@downloadgauge.com"
+    className="font-semibold text-blue-600 hover:text-blue-700"
+  >
+    contact@downloadgauge.com
+  </a>
+  .
+</p>
 
-              <p className="mt-4">
-                If you have a question about DownloadGauge, feedback about our
-                calculators, or a suggestion that could help improve the
-                website, you can contact the site operator.
-              </p>
+             
             </div>
 
             <div>
