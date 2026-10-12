@@ -589,10 +589,15 @@ export default function DownloadSpeedCalculator() {
                 converted into seconds.
               </p>
 
-              <p>
-                The result gives the theoretical connection speed required to
-                transfer the file within the selected time.
-              </p>
+             <p>
+  The result gives the theoretical connection speed required to
+  transfer the file within the selected time. For example, downloading
+  a 10 GB file in 5 minutes requires about 267 Mbps, while downloading
+  the same file in 10 minutes requires about 133 Mbps. These estimates
+  assume decimal file sizes and ideal transfer conditions. Actual
+  downloads may require more speed because of network overhead,
+  Wi-Fi conditions, and server limits.
+</p>
             </div>
           </div>
         </div>
