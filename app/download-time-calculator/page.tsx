@@ -554,7 +554,9 @@ export default function DownloadTimeCalculatorPage() {
                 aria-label="Download time formula" 
                 className="overflow-x-auto rounded-xl bg-white px-3 py-4 text-center font-mono text-sm font-semibold leading-6 text-slate-900 sm:px-5 sm:py-5" 
               > 
-                Download Time = File Size ÷ Download Speed 
+              
+                Download Time = File Size in Bits &divide; Download Speed in Bits per Second
+
               </div> 
  
               <div className="mt-4 space-y-2.5 text-sm leading-6 text-slate-600 sm:mt-5"> 
@@ -608,7 +610,7 @@ export default function DownloadTimeCalculatorPage() {
             <div className="mt-6 grid gap-3 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4"> 
               {[ 
                
-{
+   {
   size: "1 GB",
   description:
     "At 100 Mbps, a 1 GB file takes about 1 minute 26 seconds to download under ideal conditions.",
