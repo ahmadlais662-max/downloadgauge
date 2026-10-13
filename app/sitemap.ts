@@ -7,39 +7,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/download-time-calculator/",
+      url: "https://downloadgauge.com/download-time-calculator",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/download-speed-calculator/",
+      url: "https://downloadgauge.com/download-speed-calculator",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/guides/how-long-does-1gb-take-to-download/",
+      url: "https://downloadgauge.com/guides/how-long-does-1gb-take-to-download",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/guides/how-long-does-10gb-take-to-download/",
+      url: "https://downloadgauge.com/guides/how-long-does-10gb-take-to-download",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/about/",
+      url: "https://downloadgauge.com/about",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/privacy-policy/",
+      url: "https://downloadgauge.com/privacy-policy",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/terms-of-use/",
+      url: "https://downloadgauge.com/terms-of-use",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/disclaimer/",
+      url: "https://downloadgauge.com/disclaimer",
       lastModified: new Date(),
     },
     {
-      url: "https://downloadgauge.com/contact/",
+      url: "https://downloadgauge.com/contact",
       lastModified: new Date(),
     },
   ];
