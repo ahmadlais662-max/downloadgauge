@@ -14,6 +14,10 @@ export const metadata: Metadata = {
 
   applicationName: "DownloadGauge",
 
+  other: {
+  "google-adsense-account": "ca-pub-9719119056514637",
+      },
+
   authors: [
     {
       name: "Muhammad Ahmad",
