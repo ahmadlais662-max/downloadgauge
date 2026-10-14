@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "/guides/how-long-does-10gb-take-to-download/",
+    canonical: "/guides/how-long-does-10gb-take-to-download",
   },
 };
 

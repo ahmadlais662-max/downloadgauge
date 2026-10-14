@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Read the Terms of Use for DownloadGauge, including calculator use, estimates, website content, advertising, and limitations of liability.",
   alternates: {
-    canonical: "/terms-of-use/",
+    canonical: "/terms-of-use",
   },
   openGraph: {
     title: "Terms of Use | DownloadGauge",
@@ -429,5 +429,6 @@ export default function TermsOfUsePage() {
         </div>
       </footer>
     </main>
+
   );
 }

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Calculate how long a file will take to download based on its size and internet speed. Get a quick and accurate download time estimate for any file.",
   alternates: {
-    canonical: "/download-time-calculator/",
+  canonical: "/download-time-calculator",
   },
   openGraph: {
     title: "Download Time Calculator | DownloadGauge",

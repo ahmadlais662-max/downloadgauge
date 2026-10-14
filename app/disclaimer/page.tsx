@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Read the DownloadGauge disclaimer about calculator estimates, accuracy, third-party services, advertising, and use of information provided on the website.",
   alternates: {
-    canonical: "/disclaimer/",
+    canonical: "/disclaimer",
   },
   openGraph: {
     title: "Disclaimer | DownloadGauge",

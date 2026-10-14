@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Contact DownloadGauge for questions, feedback, website issues, or other inquiries about our download and transfer calculators.",
   alternates: {
-    canonical: "/contact/",
+    canonical: "/contact",
   },
   openGraph: {
     title: "Contact | DownloadGauge",

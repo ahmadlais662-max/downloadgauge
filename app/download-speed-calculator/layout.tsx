@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "Calculate the internet download speed you need to download a file within a specific amount of time. Get a quick and accurate required speed estimate.",
 
   alternates: {
-    canonical: "/download-speed-calculator/",
+    canonical: "/download-speed-calculator",
   },
 
   openGraph: {

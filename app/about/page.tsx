@@ -13,7 +13,7 @@ export const metadata = {
   description:
     "Learn about DownloadGauge, its download time and download speed calculators, how calculations work, and who operates the site.",
   alternates: {
-    canonical: "/about/",
+    canonical: "/about",
   },
   openGraph: {
     title: "About DownloadGauge | DownloadGauge",

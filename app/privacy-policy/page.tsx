@@ -6,7 +6,7 @@ export const metadata = {
   description:
     "Learn how DownloadGauge handles information, calculator inputs, cookies, advertising, analytics, and privacy.",
   alternates: {
-    canonical: "/privacy-policy/",
+    canonical: "/privacy-policy",
   },
   openGraph: {
     title: "Privacy Policy | DownloadGauge",
