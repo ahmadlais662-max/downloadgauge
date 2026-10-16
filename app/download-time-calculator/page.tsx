@@ -143,7 +143,7 @@ export default function DownloadTimeCalculatorPage() {
             "@context": "https://schema.org",
             "@type": ["WebApplication", "SoftwareApplication"],
             name: "DownloadGauge Download Time Calculator",
-            url: "https://downloadgauge.com/download-time-calculator/",
+            url: "https://downloadgauge.com/download-time-calculator",
             description:
               "Calculate how long a file will take to download based on its size and internet download speed.",
             applicationCategory: "UtilitiesApplication",
@@ -187,14 +187,14 @@ export default function DownloadTimeCalculatorPage() {
               </a> 
  
               <a 
-                href="/download-time-calculator/" 
+                href="/download-time-calculator" 
                 className="rounded-lg px-1 py-2 text-blue-600 transition hover:text-blue-700" 
               > 
                 Download Time 
               </a> 
  
               <a 
-                href="/download-speed-calculator/" 
+                href="/download-speed-calculator" 
                 className="rounded-lg px-1 py-2 transition hover:text-slate-950" 
               > 
                 Download Speed 
@@ -226,14 +226,14 @@ export default function DownloadTimeCalculatorPage() {
                 </a> 
  
                 <a 
-                  href="/download-time-calculator/" 
+                  href="/download-time-calculator" 
                   className="flex min-h-10 items-center rounded-xl bg-blue-50 px-3 text-sm font-semibold text-blue-700 transition hover:bg-blue-100" 
                 > 
                   Download Time 
                 </a> 
  
                 <a 
-                  href="/download-speed-calculator/" 
+                  href="/download-speed-calculator" 
                   className="flex min-h-10 items-center rounded-xl px-3 text-sm font-medium text-slate-700 transition hover:bg-slate-50 hover:text-slate-950" 
                 > 
                   Download Speed 
@@ -284,7 +284,7 @@ export default function DownloadTimeCalculatorPage() {
               </button> 
  
               <a 
-                href="/download-speed-calculator/" 
+                href="/download-speed-calculator" 
                 className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50" 
               > 
                 Calculate Required Speed 
@@ -722,7 +722,7 @@ export default function DownloadTimeCalculatorPage() {
               </p> 
  
               <a 
-                href="/download-speed-calculator/" 
+                href="/download-speed-calculator" 
                 className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700" 
               > 
                 Open Download Speed Calculator 
@@ -764,14 +764,14 @@ export default function DownloadTimeCalculatorPage() {
  
                 <div className="mt-2 space-y-0.5 text-sm text-slate-400"> 
                   <a 
-                    href="/download-time-calculator/" 
+                    href="/download-time-calculator" 
                     className="flex min-h-9 items-center hover:text-white" 
                   > 
                     Download Time Calculator 
                   </a> 
  
                   <a 
-                    href="/download-speed-calculator/" 
+                    href="/download-speed-calculator" 
                     className="flex min-h-9 items-center hover:text-white" 
                   > 
                     Download Speed Calculator 

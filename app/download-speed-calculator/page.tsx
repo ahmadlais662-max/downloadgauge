@@ -110,7 +110,7 @@ export default function DownloadSpeedCalculator() {
             "@context": "https://schema.org",
             "@type": ["WebApplication", "SoftwareApplication"],
             name: "DownloadGauge Download Speed Calculator",
-            url: "https://downloadgauge.com/download-speed-calculator/",
+            url: "https://downloadgauge.com/download-speed-calculator",
             description:
               "Calculate the internet download speed required to download a file within a specific amount of time.",
             applicationCategory: "UtilitiesApplication",
@@ -153,14 +153,14 @@ export default function DownloadSpeedCalculator() {
             </a>
 
             <a
-              href="/download-time-calculator/"
+              href="/download-time-calculator"
               className="rounded-lg px-1 py-2 transition hover:text-slate-950"
             >
               Download Time
             </a>
 
             <a
-              href="/download-speed-calculator/"
+              href="/download-speed-calculator"
               className="rounded-lg px-1 py-2 text-blue-600 transition hover:text-blue-700"
             >
               Download Speed
@@ -192,14 +192,14 @@ export default function DownloadSpeedCalculator() {
               </a>
 
               <a
-                href="/download-time-calculator/"
+                href="/download-time-calculator"
                 className="flex min-h-10 items-center rounded-xl px-3 text-sm font-medium text-slate-700 transition hover:bg-slate-50 hover:text-slate-950"
               >
                 Download Time
               </a>
 
               <a
-                href="/download-speed-calculator/"
+                href="/download-speed-calculator"
                 className="flex min-h-10 items-center rounded-xl bg-blue-50 px-3 text-sm font-semibold text-blue-700 transition hover:bg-blue-100"
               >
                 Download Speed
@@ -635,14 +635,14 @@ export default function DownloadSpeedCalculator() {
 
               <div className="mt-2 space-y-0.5 text-sm text-slate-400">
                 <a
-                  href="/download-time-calculator/"
+                  href="/download-time-calculator"
                   className="flex min-h-9 items-center hover:text-white"
                 >
                   Download Time Calculator
                 </a>
 
                 <a
-                  href="/download-speed-calculator/"
+                  href="/download-speed-calculator"
                   className="flex min-h-9 items-center hover:text-white"
                 >
                   Download Speed Calculator

@@ -88,13 +88,13 @@ export default function TenGbGuidePage() {
                 Home
               </Link>
               <Link
-                href="/download-time-calculator/"
+                href="/download-time-calculator"
                 className="transition hover:text-slate-950"
               >
                 Download Time
               </Link>
               <Link
-                href="/download-speed-calculator/"
+                href="/download-speed-calculator"
                 className="transition hover:text-slate-950"
               >
                 Download Speed
@@ -249,7 +249,7 @@ export default function TenGbGuidePage() {
                 </p>
 
                 <Link
-                  href="/download-time-calculator/"
+                  href="/download-time-calculator"
                   className="mt-6 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
                 >
                   Open Download Time Calculator
@@ -321,13 +321,13 @@ export default function TenGbGuidePage() {
                   <h3 className="font-semibold text-slate-950">Tools</h3>
                   <div className="mt-3 space-y-2">
                     <Link
-                      href="/download-time-calculator/"
+                      href="/download-time-calculator"
                       className="block text-slate-600 hover:text-slate-950"
                     >
                       Download Time
                     </Link>
                     <Link
-                      href="/download-speed-calculator/"
+                      href="/download-speed-calculator"
                       className="block text-slate-600 hover:text-slate-950"
                     >
                       Download Speed

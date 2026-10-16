@@ -54,14 +54,14 @@ export default function ContactPage() {
             </Link>
 
             <Link
-              href="/download-time-calculator/"
+              href="/download-time-calculator"
               className="rounded-lg px-1 py-2 transition hover:text-slate-950"
             >
               Download Time
             </Link>
 
             <Link
-              href="/download-speed-calculator/"
+              href="/download-speed-calculator"
               className="rounded-lg px-1 py-2 transition hover:text-slate-950"
             >
               Download Speed
@@ -86,14 +86,14 @@ export default function ContactPage() {
               </Link>
 
               <Link
-                href="/download-time-calculator/"
+                href="/download-time-calculator"
                 className="flex min-h-10 items-center rounded-xl px-3 text-sm font-medium text-slate-700 transition hover:bg-slate-50 hover:text-slate-950"
               >
                 Download Time
               </Link>
 
               <Link
-                href="/download-speed-calculator/"
+                href="/download-speed-calculator"
                 className="flex min-h-10 items-center rounded-xl px-3 text-sm font-medium text-slate-700 transition hover:bg-slate-50 hover:text-slate-950"
               >
                 Download Speed
@@ -179,7 +179,7 @@ export default function ContactPage() {
 
               <p className="mt-4">
                 <Link
-                  href="/download-time-calculator/"
+                  href="/download-time-calculator"
                   className="font-semibold text-blue-600 hover:text-blue-700"
                 >
                   Download Time Calculator
@@ -188,7 +188,7 @@ export default function ContactPage() {
 
               <p className="mt-2">
                 <Link
-                  href="/download-speed-calculator/"
+                  href="/download-speed-calculator"
                   className="font-semibold text-blue-600 hover:text-blue-700"
                 >
                   Download Speed Calculator
@@ -285,14 +285,14 @@ export default function ContactPage() {
 
               <div className="mt-2 space-y-0.5 text-sm text-slate-400">
                 <Link
-                  href="/download-time-calculator/"
+                  href="/download-time-calculator"
                   className="flex min-h-9 items-center hover:text-white"
                 >
                   Download Time Calculator
                 </Link>
 
                 <Link
-                  href="/download-speed-calculator/"
+                  href="/download-speed-calculator"
                   className="flex min-h-9 items-center hover:text-white"
                 >
                   Download Speed Calculator

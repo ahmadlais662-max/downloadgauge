@@ -122,14 +122,14 @@ export default function OneGBDownloadGuide() {
               </Link>
 
               <Link
-                href="/download-time-calculator/"
+                href="/download-time-calculator"
                 className="rounded-lg px-1 py-2 transition hover:text-slate-950"
               >
                 Download Time
               </Link>
 
               <Link
-                href="/download-speed-calculator/"
+                href="/download-speed-calculator"
                 className="rounded-lg px-1 py-2 transition hover:text-slate-950"
               >
                 Download Speed
@@ -145,7 +145,7 @@ export default function OneGBDownloadGuide() {
 
             <div className="sm:hidden">
               <Link
-                href="/download-time-calculator/"
+                href="/download-time-calculator"
                 className="inline-flex min-h-10 items-center rounded-xl border border-slate-200 px-3 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
               >
                 Calculator
@@ -179,7 +179,7 @@ export default function OneGBDownloadGuide() {
 
               <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
                 <Link
-                  href="/download-time-calculator/"
+                  href="/download-time-calculator"
                   className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700"
                 >
                   Calculate Download Time
@@ -187,7 +187,7 @@ export default function OneGBDownloadGuide() {
                 </Link>
 
                 <Link
-                  href="/download-speed-calculator/"
+                  href="/download-speed-calculator"
                   className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50"
                 >
                   Calculate Required Speed
@@ -471,7 +471,7 @@ export default function OneGBDownloadGuide() {
                       </p>
 
                       <Link
-                        href="/download-time-calculator/"
+                        href="/download-time-calculator"
                         className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700"
                       >
                         Open Download Time Calculator
@@ -502,7 +502,7 @@ export default function OneGBDownloadGuide() {
                       </p>
 
                       <Link
-                        href="/download-speed-calculator/"
+                        href="/download-speed-calculator"
                         className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50"
                       >
                         Open Download Speed Calculator
@@ -599,14 +599,14 @@ export default function OneGBDownloadGuide() {
 
                 <div className="mt-3 flex flex-col gap-2 text-sm">
                   <Link
-                    href="/download-time-calculator/"
+                    href="/download-time-calculator"
                     className="transition hover:text-white"
                   >
                     Download Time Calculator
                   </Link>
 
                   <Link
-                    href="/download-speed-calculator/"
+                    href="/download-speed-calculator"
                     className="transition hover:text-white"
                   >
                     Download Speed Calculator
@@ -628,7 +628,7 @@ export default function OneGBDownloadGuide() {
                   </Link>
 
                   <Link
-                    href="/download-time-calculator/#how-it-works"
+                    href="/download-time-calculator#how-it-works"
                     className="transition hover:text-white"
                   >
                     How It Works

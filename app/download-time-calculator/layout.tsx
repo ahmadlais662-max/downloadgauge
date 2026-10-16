@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Download Time Calculator | DownloadGauge",
     description:
       "Calculate how long a file will take to download based on its size and internet speed. Get a quick and accurate download time estimate for any file.",
-    url: "/download-time-calculator/",
+    url: "/download-time-calculator",
     type: "website",
   },
 };

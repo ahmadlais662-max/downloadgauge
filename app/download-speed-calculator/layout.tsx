@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Download Speed Calculator | DownloadGauge",
     description:
       "Calculate the internet download speed you need to download a file within a specific amount of time. Get a quick and accurate required speed estimate.",
-    url: "/download-speed-calculator/",
+    url: "/download-speed-calculator",
     type: "website",
   },
 };
